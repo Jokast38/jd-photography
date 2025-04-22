@@ -2,11 +2,12 @@ export default function Home() {
   return (
     <div className="relative h-screen bg-black">
       {/* Hero Image */}
+      <div className="w-1/2 h-full">
       <img
         src="/public/images/clients/hero.png" // Remplacez par le chemin de votre image
         alt="Photographer Hero"
       />
-
+   </div>
      
 
       {/* Hero Content */}
