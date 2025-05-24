@@ -8,6 +8,9 @@ import Contact from './pages/Contact'
 import './App.css'
 import './index.css'
 import './components/css/Hero.css'
+import './components/css/Navbar.css'
+import './components/css/Portfolio.css'
+import './components/css/Services.css'
 function App() {
   return (
     <>

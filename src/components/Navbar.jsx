@@ -12,7 +12,7 @@ export default function Navbar() {
   return (
     <nav className="bg-black text-white p-4 flex items-center justify-between">
       {/* Logo */}
-      <div className="logo">JD Photography</div>
+      <div className="logo"><img src="../../public/images/logo/jd-logo.png" alt="" srcset="" /></div>
       <div className="desktop-menu">
         <Link to="/">Accueil</Link>
         <Link className="hover:text-gray-400" to="/portfolio">Portfolio</Link>
