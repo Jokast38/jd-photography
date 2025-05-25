@@ -51,6 +51,13 @@
   background: #f3f3f3;
 }
 
+.carousel-btn {
+  transition: opacity 0.2s;
+}
+.carousel-btn:hover {
+  opacity: 0.7 !important;
+}
+
 
 @media (max-width: 700px) {
   .portfolio-grid {
