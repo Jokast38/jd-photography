@@ -5,8 +5,9 @@
   justify-content: center;
   /* gap: 3rem; */
   max-width: 1100px;
-  margin: 0;
-    padding: 16px;
+  margin: auto;
+  padding: 16px;
+
 }
 
 .about-text {
