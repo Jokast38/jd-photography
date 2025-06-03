@@ -13,7 +13,7 @@ function getImageSources(cat, extensions = ["jpg", "png", "jpeg", "webp", "gif"]
 }
 
 export default function Portfolio() {
-  const categories = ["Mariage", "Portrait", "Nature", "Blanc-Noir"];
+  const categories = ["Mariage", "Portrait", "Nature", "Blanc-Noir", "Nude"];
   const extensions = ["jpg", "png", "jpeg", "webp", "gif"];
 
   // Index du carousel pour chaque catégorie

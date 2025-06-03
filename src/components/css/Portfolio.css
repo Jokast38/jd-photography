@@ -8,6 +8,7 @@
 /* Grille responsive centrée */
 .portfolio-grid {
   display: grid;
+  grid-template-rows: auto;
   grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   gap: 2rem;
   justify-items: center;
@@ -18,7 +19,7 @@
 /* Carte individuelle */
 .portfolio-card {
   background: #fff;
-  border-radius: 18px;
+  /* border-radius: 18px; */
   box-shadow: 0 2px 16px 0 rgba(0,0,0,0.07);
   padding: 16px;
   display: flex;
