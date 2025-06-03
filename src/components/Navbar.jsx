@@ -10,7 +10,7 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="bg-black text-white p-4 flex items-center justify-between">
+    <nav style={{position: 'fixed', zIndex: 2 }} className="nav">
       {/* Logo */}
       <div className="logo"><img src="../../public/images/logo/jd-logo.png" alt="" srcset="" /></div>
       <div className="desktop-menu">
@@ -44,7 +44,7 @@ export default function Navbar() {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="mobile-menu absolute top-16 left-0 w-full bg-black text-white flex flex-col gap-4 p-4 md:hidden ">
+        <div className="mobile-menu">
           <Link className="hover:text-gray-400" to="/" onClick={toggleMenu}>Accueil</Link>
           <Link className="hover:text-gray-400" to="/portfolio" onClick={toggleMenu}>Portfolio</Link>
           <Link className="hover:text-gray-400" to="/services" onClick={toggleMenu}>Services</Link>

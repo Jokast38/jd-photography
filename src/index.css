@@ -33,6 +33,10 @@ body {
   width: 100%;
 }
 
+.jd-container {
+ margin-top: 6rem;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

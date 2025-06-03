@@ -1,0 +1,5 @@
+const Portrait ext =Portrait-1.png, Portrait-2.jpeg, Portrait-3.jpeg, Portrait-4.jpeg, Portrait-5.jpeg, Portrait-6.jpeg 
+const Nude ext = Nude-1.png, Nude-2.png, Nude-3.png, Nude-4.jpeg, Nude-5.jpeg,
+const Nature ext = Nature-1.png, Nature-2.png, Nature-3.png, Nature-4.jpeg, Nature-5.jpeg, Nature-6.jpeg, Nature-7.jpeg, Nature-8.jpeg, Nature-9.jpeg, Nature-10.png
+const Blanc-Noir ext = Blanc-Noir-1.png, Blanc-Noir-2.jpeg, Blanc-Noir-3.jpeg, Blanc-Noir-4.jpeg, Blanc-Noir-5.jpeg, Blanc-Noir-6.jpeg, Blanc-Noir-7.jpeg
+
