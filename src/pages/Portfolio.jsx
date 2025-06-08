@@ -1,32 +1,73 @@
 import { useState, useEffect, useRef } from "react";
 import "../components/css/Portfolio.css";
 
+// Import des images pour chaque catégorie (import ES6)
+import Portrait1 from '../assets/images/clients/Portrait/Portrait-1.png';
+import Portrait2 from '../assets/images/clients/Portrait/Portrait-2.jpeg';
+import Portrait3 from '../assets/images/clients/Portrait/Portrait-3.jpeg';
+import Portrait4 from '../assets/images/clients/Portrait/Portrait-4.jpeg';
+import Portrait5 from '../assets/images/clients/Portrait/Portrait-5.jpeg';
+import Portrait6 from '../assets/images/clients/Portrait/Portrait-6.jpeg';
+
+import Nude1 from '../assets/images/clients/Nude/Nude-1.png';
+import Nude2 from '../assets/images/clients/Nude/Nude-2.png';
+import Nude3 from '../assets/images/clients/Nude/Nude-3.png';
+import Nude4 from '../assets/images/clients/Nude/Nude-4.jpeg';
+import Nude5 from '../assets/images/clients/Nude/Nude-5.jpeg';
+
+import Nature1 from '../assets/images/clients/Nature/Nature-1.png';
+import Nature2 from '../assets/images/clients/Nature/Nature-2.png';
+import Nature3 from '../assets/images/clients/Nature/Nature-3.png';
+import Nature4 from '../assets/images/clients/Nature/Nature-4.jpeg';
+import Nature5 from '../assets/images/clients/Nature/Nature-5.jpeg';
+import Nature6 from '../assets/images/clients/Nature/Nature-6.jpeg';
+import Nature7 from '../assets/images/clients/Nature/Nature-7.jpeg';
+import Nature8 from '../assets/images/clients/Nature/Nature-8.jpeg';
+import Nature9 from '../assets/images/clients/Nature/Nature-9.jpeg';
+import Nature10 from '../assets/images/clients/Nature/Nature-10.png';
+
+import BlancNoir1 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-1.png';
+import BlancNoir2 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-2.jpeg';
+import BlancNoir3 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-3.jpeg';
+import BlancNoir4 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-4.jpeg';
+import BlancNoir5 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-5.jpeg';
+import BlancNoir6 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-6.jpeg';
+import BlancNoir7 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-7.jpeg';
+
+import Mariage1 from '../assets/images/clients/Mariage/Mariage-1.png';
+// import Mariage2 from '../assets/images/clients/Mariage/Mariage-2.jpg';
+// import Mariage3 from '../assets/images/clients/Mariage/Mariage-3.jpg';
+// import Mariage4 from '../assets/images/clients/Mariage/Mariage-4.jpg';
+// import Mariage5 from '../assets/images/clients/Mariage/Mariage-5.jpg';
+
+import Placeholder from '../assets/images/placeholder.jpeg';
+
 // Mapping précis des images pour chaque catégorie (utilise uniquement les extensions réelles)
 const imageMap = {
   "Portrait": [
-    "Portrait-1.png", "Portrait-2.jpeg", "Portrait-3.jpeg", "Portrait-4.jpeg", "Portrait-5.jpeg", "Portrait-6.jpeg"
+    Portrait1, Portrait2, Portrait3, Portrait4, Portrait5, Portrait6
   ],
   "Nude": [
-    "Nude-1.png", "Nude-2.png", "Nude-3.png", "Nude-4.jpeg", "Nude-5.jpeg"
+    Nude1, Nude2, Nude3, Nude4, Nude5
   ],
   "Nature": [
-    "Nature-1.png", "Nature-2.png", "Nature-3.png", "Nature-4.jpeg", "Nature-5.jpeg",
-    "Nature-6.jpeg", "Nature-7.jpeg", "Nature-8.jpeg", "Nature-9.jpeg", "Nature-10.png"
+    Nature1, Nature2, Nature3, Nature4, Nature5,
+    Nature6, Nature7, Nature8, Nature9, Nature10
   ],
   "Blanc-Noir": [
-    "Blanc-Noir-1.png", "Blanc-Noir-2.jpeg", "Blanc-Noir-3.jpeg", "Blanc-Noir-4.jpeg",
-    "Blanc-Noir-5.jpeg", "Blanc-Noir-6.jpeg", "Blanc-Noir-7.jpeg"
+    BlancNoir1, BlancNoir2, BlancNoir3, BlancNoir4,
+    BlancNoir5, BlancNoir6, BlancNoir7
   ],
   "Mariage": [
-    "Mariage-1.jpg", "Mariage-2.jpg", "Mariage-3.jpg", "Mariage-4.jpg", "Mariage-5.jpg"
+    Mariage1, {/* Mariage2, Mariage3, Mariage4, Mariage5 */}
   ]
 };
 
+
 // Utilise uniquement les chemins exacts définis dans imageMap (pas de complétion d'extensions)
 function getImageSources(cat) {
-  return (imageMap[cat] || []).map(
-    (file) => `../src/assets/images/clients/${cat}/${file}`
-  );
+      return imageMap[cat] || [];
+
 }
 
 export default function Portfolio() {
@@ -140,7 +181,7 @@ export default function Portfolio() {
           const imgSrc =
             tries < sources.length
               ? sources[current]
-              : "./src/assets/images/placeholder.jpeg";
+              : Placeholder;
           return (
             <div
               key={index}

@@ -15,6 +15,7 @@
 //   }
 
 import "../components/css/About.css";
+import JulesDrezy from "../assets/images/clients/Portrait/about-1.jpeg";
 
 export default function About() {
   return (
@@ -32,7 +33,7 @@ export default function About() {
       </div>
       <div className="about-img-container">
         <img
-          src="./src/assets/images/clients/Portrait/about-1.jpeg"
+          src={JulesDrezy}
           alt="Jules Drezy"
           className="about-img"
         />

@@ -1,3 +1,4 @@
+import heroImage from '../assets/images/clients/Marque/hero.png';
 export default function Home() {
   return (
     <div className="hero-body">
@@ -13,7 +14,7 @@ export default function Home() {
        {/* Hero Image avec cercle jaune */}
       <div className="hero relative w-1/2 h-full flex items-center justify-center">
         <img id="hero-image"
-          src="./src/assets/images/clients/Marque/hero.png"
+          src={heroImage}
           alt="Photographer Hero"
         />
       </div>
