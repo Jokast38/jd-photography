@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import React, { useState } from 'react'
 import './css/Navbar.css' // Import your CSS file here
+import logo from '../assets/images/logo/jd-logo.png' // <-- Ajoute cet import
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
@@ -12,7 +13,7 @@ export default function Navbar() {
   return (
     <nav style={{position: 'fixed', zIndex: 2 }} className="nav">
       {/* Logo */}
-      <div className="logo"><img src="./src/assets/images/logo/jd-logo.png" alt="" srcset="" /></div>
+      <div className="logo"><img src={logo} alt="JD Logo" /></div>
       <div className="desktop-menu">
         <Link to="/">Accueil</Link>
         <Link className="hover:text-gray-400" to="/portfolio">Portfolio</Link>
