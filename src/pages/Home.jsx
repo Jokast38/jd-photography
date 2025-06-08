@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <div className="hero-body relative h-screen flex items-center justify-center bg-cover bg-center bg-no-repeat" style={{ backgroundImage: "url('/public/images/clients/hero-bg.jpg')" }}>
+    <div className="hero-body">
       {/* Hero title */}
-      <div className="hero-content absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center" style={{ zIndex: 1 }} > 
+      <div className="hero-content"> 
         <h1 className="text-5xl font-bold mb-4">
           Bienvenue chez <span className="text-yellow-500">JD Photography</span>
         </h1>
@@ -13,7 +13,7 @@ export default function Home() {
        {/* Hero Image avec cercle jaune */}
       <div className="hero relative w-1/2 h-full flex items-center justify-center">
         <img id="hero-image"
-          src="/public/images/clients/Marque/hero.png"
+          src="./src/assets/images/clients/Marque/hero.png"
           alt="Photographer Hero"
         />
       </div>

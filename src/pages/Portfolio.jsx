@@ -25,7 +25,7 @@ const imageMap = {
 // Utilise uniquement les chemins exacts définis dans imageMap (pas de complétion d'extensions)
 function getImageSources(cat) {
   return (imageMap[cat] || []).map(
-    (file) => `/images/clients/${cat}/${file}`
+    (file) => `../src/assets/images/clients/${cat}/${file}`
   );
 }
 
@@ -140,7 +140,7 @@ export default function Portfolio() {
           const imgSrc =
             tries < sources.length
               ? sources[current]
-              : "/images/placeholder.jpeg";
+              : "./src/assets/images/placeholder.jpeg";
           return (
             <div
               key={index}
