@@ -23,7 +23,7 @@ nav {
 nav .logo img {
   height: 100%;
   /* Ajustez la taille du logo */
-  width: 100%;
+  width: 112px;
   /* Conserver les proportions */
   margin-right: 1rem;
 }

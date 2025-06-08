@@ -4,7 +4,7 @@ export default function Home() {
     <div className="hero-body">
       {/* Hero title */}
       <div className="hero-content"> 
-        <h1 className="text-5xl font-bold mb-4">
+        <h1 className="text-5xl font-bold mb-4 ">
           Bienvenue chez <span className="text-yellow-500">JD Photography</span>
         </h1>
       </div>
