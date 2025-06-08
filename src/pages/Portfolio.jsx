@@ -34,7 +34,7 @@ import BlancNoir5 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-5.jpeg';
 import BlancNoir6 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-6.jpeg';
 import BlancNoir7 from '../assets/images/clients/Blanc-Noir/Blanc-Noir-7.jpeg';
 
-import Mariage1 from '../assets/images/clients/Mariage/Mariage-1.png';
+import Mariage1 from '../assets/images/clients/Mariage/Mariage-1.PNG';
 // import Mariage2 from '../assets/images/clients/Mariage/Mariage-2.jpg';
 // import Mariage3 from '../assets/images/clients/Mariage/Mariage-3.jpg';
 // import Mariage4 from '../assets/images/clients/Mariage/Mariage-4.jpg';
