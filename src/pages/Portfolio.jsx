@@ -48,7 +48,7 @@ const imageMap = {
     Portrait1, Portrait2, Portrait3, Portrait4, Portrait5, Portrait6
   ],
   "Nude": [
-    Nude1, Nude2, Nude3, Nude4, Nude5
+    Placeholder,
   ],
   "Nature": [
     Nature1, Nature2, Nature3, Nature4, Nature5,
@@ -71,7 +71,7 @@ function getImageSources(cat) {
 }
 
 export default function Portfolio() {
-  const categories = ["Mariage", "Portrait", "Nature", "Blanc-Noir", "Nude"];
+  const categories = ["Mariage", "Portrait", "Nature", "Blanc-Noir", "Nude🔞"];
 
   const [carouselIndex, setCarouselIndex] = useState(
     Object.fromEntries(categories.map((cat) => [cat, 0]))
