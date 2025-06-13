@@ -9,11 +9,6 @@ import Portrait4 from '../assets/images/clients/Portrait/Portrait-4.jpeg';
 import Portrait5 from '../assets/images/clients/Portrait/Portrait-5.jpeg';
 import Portrait6 from '../assets/images/clients/Portrait/Portrait-6.jpeg';
 
-import Nude1 from '../assets/images/clients/Nude/Nude-1.png';
-import Nude2 from '../assets/images/clients/Nude/Nude-2.png';
-import Nude3 from '../assets/images/clients/Nude/Nude-3.png';
-import Nude4 from '../assets/images/clients/Nude/Nude-4.jpeg';
-import Nude5 from '../assets/images/clients/Nude/Nude-5.jpeg';
 
 import Nature1 from '../assets/images/clients/Nature/Nature-1.png';
 import Nature2 from '../assets/images/clients/Nature/Nature-2.png';
@@ -47,8 +42,8 @@ const imageMap = {
   "Portrait": [
     Portrait1, Portrait2, Portrait3, Portrait4, Portrait5, Portrait6
   ],
-  "Nude": [
-    Placeholder,
+  "Nude🔞": [
+    Placeholder, 
   ],
   "Nature": [
     Nature1, Nature2, Nature3, Nature4, Nature5,
